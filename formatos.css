@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 60px;
+  font-size: 1.35rem;
+  padding-left: 30px;
+  align-items: center;
+  background-color: rgb(70, 70, 70);
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  gap: 25px;
+  margin-left: 86px;
+}
+
+nav a {
+  text-decoration: none;
+  justify-content: space-between;
+  color: rgb(201, 200, 200);
+}
+
+nav a:hover {
+  color: rgb(238, 236, 236);
+}
+
+.active {
+  color: rgb(255, 255, 255);
+}
+
+main {
+  height: calc(100vh - 100px);
+  overflow-y: auto;
+  background-color: #ff9a6c;
+}
+
+#home {
+  padding: 200px;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#title h1 {
+  font-size: 60px;
+  margin-left: 10px;
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+}
+
+#subtitle {
+  text-align: center;
+  padding: 50px;
+}
+
+#subtitle h2 {
+  font-size: 32px;
+}
+
+#cadastro-tittle {
+  padding-left: 50px;
+  margin: 50px 85px;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+#form {
+  font-size: 22px;
+}
+
+.form-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 32px;
+  align-items: center;
+}
+
+.form-group label {
+  min-width: 165px;
+  width: fit-content;
+}
+
+.form-control {
+  height: 56px;
+  font-size: 18px;
+}
+
+#button-submit {
+  background-color: rgb(70, 70, 70);
+  border: none;
+  font-size: 1.5rem;
+  padding: 10px 60px;
+  align-items: end;
+}
+
+#button-submit:hover {
+  color: rgb(139, 139, 139);
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 25px;
+}
