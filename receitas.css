@@ -66,6 +66,11 @@
     font-size: 1rem;
   }
 
+  .card-subtitle {
+    font-size: 1.2rem;
+    margin: 0 0 5px;
+  }
+
   .list {
     line-height: 1.25;
   }
@@ -91,6 +96,11 @@
   .card-text ul {
     padding: 0 0 5px 15px;
     font-size: 1.1rem;
+  }
+
+  .card-subtitle {
+    font-size: 1.3rem;
+    margin: 0 0 8px;
   }
 
   .list {
