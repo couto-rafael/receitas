@@ -1,20 +1,18 @@
 #card-receitas {
   display: flex;
-  margin: 20px 32px;
+  margin: 20px 16px;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 20px;
+  padding: 10px;
 }
 
 .card {
   background-color: #f5c2aa;
-  width: 400px;
+  width: 500px;
   margin: 10px;
   border-radius: 8px;
-  padding: 15px;
   box-sizing: border-box;
   text-align: center;
-  margin-bottom: 32px;
 }
 
 .card-title {
@@ -45,8 +43,56 @@
   line-height: 1.5;
 }
 
-@media (max-width: 768px) {
-  .card {
-    flex: 0 0 calc(100% - 20px);
+@media (max-width: 600px) {
+  #card-receitas {
+    margin: 10px 5px;
+    padding: 0;
+  }
+
+  .card-title {
+    font-size: 1.35rem;
+    padding-top: 3px;
+  }
+
+  .card-text ul {
+    padding: 0 0 5px 15px;
+    font-size: 1rem;
+  }
+
+  .list {
+    line-height: 1.25;
+  }
+
+  .preparo {
+    font-size: 1.15rem;
+    padding: 0;
+    line-height: 1.25;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1359px) {
+  #card-receitas {
+    margin: 10px 5px;
+    padding: 0;
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+    padding-top: 3px;
+  }
+
+  .card-text ul {
+    padding: 0 0 5px 15px;
+    font-size: 1.1rem;
+  }
+
+  .list {
+    line-height: 1.35;
+  }
+
+  .preparo {
+    font-size: 1.2rem;
+    padding: 0;
+    line-height: 1.35;
   }
 }
