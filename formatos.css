@@ -72,7 +72,7 @@ main {
   font-size: 42px;
 }
 
-#cadastro-tittle {
+#cadastro-title {
   margin: 30px;
   font-size: 3.5rem;
   text-align: center;
@@ -104,7 +104,6 @@ main {
   border: none;
   font-size: 1.5rem;
   padding: 10px 60px;
-  align-items: end;
   margin-bottom: 16px;
 }
 
@@ -137,6 +136,16 @@ footer {
   #subtitle h2 {
     font-size: 22px;
     margin-top: 20px;
+  }
+
+  #cadastro-title {
+    margin: 30px 10px;
+    font-size: 2rem;
+  }
+
+  #button-submit {
+    font-size: 1.25rem;
+    padding: 10px 40px;
   }
 }
 
