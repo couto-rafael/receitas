@@ -73,8 +73,7 @@ main {
 }
 
 #cadastro-tittle {
-  padding-left: 50px;
-  margin: 50px 85px;
+  margin: 30px;
   font-size: 3.5rem;
   text-align: center;
 }
@@ -86,7 +85,7 @@ main {
 .form-group {
   display: flex;
   gap: 10px;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
   align-items: center;
 }
 
@@ -106,6 +105,7 @@ main {
   font-size: 1.5rem;
   padding: 10px 60px;
   align-items: end;
+  margin-bottom: 16px;
 }
 
 #button-submit:hover {
