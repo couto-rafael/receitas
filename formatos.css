@@ -17,14 +17,11 @@ header {
 
 nav {
   display: flex;
-  justify-content: flex-start;
   gap: 25px;
-  margin-left: 86px;
 }
 
 nav a {
   text-decoration: none;
-  justify-content: space-between;
   color: rgb(201, 200, 200);
 }
 
@@ -43,18 +40,22 @@ main {
 }
 
 #home {
-  padding: 200px;
+  padding: 200px 20px;
 }
 
 #title {
   display: flex;
   justify-content: center;
   align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 #title h1 {
   font-size: 60px;
   margin-left: 10px;
+  text-align: center;
 }
 
 #logo {
