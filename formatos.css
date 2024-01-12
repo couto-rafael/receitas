@@ -53,7 +53,7 @@ main {
 #home {
   display: flex;
   flex-direction: column;
-  padding: 100px;
+  padding: 150px;
 }
 
 #title {
@@ -133,12 +133,12 @@ footer {
 
 @media (max-width: 600px) {
   #home {
-    padding: 50px;
+    padding: 80px;
   }
 
   #logo {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
   }
 
   #title h1 {
