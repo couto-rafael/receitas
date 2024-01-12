@@ -39,7 +39,7 @@ nav {
   color: var(--hover-color);
 }
 
-#navbarNav a:active {
+#list-menu .active {
   color: black;
 }
 
@@ -132,6 +132,14 @@ footer {
 }
 
 @media (max-width: 600px) {
+  header {
+    z-index: 1;
+  }
+
+  .nav-item a {
+    font-weight: bold;
+  }
+
   #home {
     padding: 50px;
   }
@@ -154,6 +162,7 @@ footer {
   #cadastro-title {
     margin: 30px 10px;
     font-size: 2rem;
+    z-index: -1;
   }
 
   #button-submit {
