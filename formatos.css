@@ -21,7 +21,6 @@ body {
 header {
   height: 60px;
   font-size: 1.05rem;
-  padding-left: 30px;
   align-items: center;
   background-color: var(--secondary-color);
 }
@@ -31,16 +30,16 @@ nav {
   gap: 25px;
 }
 
-nav a {
+#navbarNav a {
   text-decoration: none;
   color: var(--menu-color);
 }
 
-nav a:hover {
+#navbarNav a:hover {
   color: var(--hover-color);
 }
 
-.active {
+#navbarNav a:active {
   color: black;
 }
 
@@ -127,7 +126,7 @@ main {
 
 footer {
   background-color: var(--secondary-color);
-  color: black;
+  color: var(--menu-color);
   text-align: center;
   height: 25px;
 }
