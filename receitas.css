@@ -25,6 +25,7 @@
 .card-img-top {
   max-width: 100%;
   height: auto;
+  padding: 1px;
 }
 
 .card-text ul {
